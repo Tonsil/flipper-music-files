@@ -24,9 +24,16 @@ Notes: <comma-delimited list of notes>
 
 `<duration><note|rest><sharp><octave><dots>`
 
-duration: number between 1 & 128, defaults to project duration. Ex: 4 is a quarter note, 2 is a half note.
+duration: number between 1 & 128, defaults to project duration. 4 is a quarter note, 2 is a half note.
 note: A through G or P for pause (rest)
 sharp: # or omitted
 octave: between 1 & 16, defaults to project octave
 dots: between 1 & 16 '.' characters. Each dot makes the note half again as long.
 
+#### Examples:
+
+8C4 - Eight note pitch of C, fourth octave
+
+4A#5. - Dotted quarter note pitch of A sharp, fifth octave
+
+2P - Half note rest
